@@ -1,0 +1,12 @@
+---
+layout: default
+title: "ツ onCode &middot; /blog &middot; /book"
+---
+
+<div id="posts">
+  {% for post in site.tags.book %}
+  <div class="post">
+    {% include post.html %}
+  </div>
+  {% endfor %}
+</div>

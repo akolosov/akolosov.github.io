@@ -1,0 +1,304 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Play", sans-serif !important;
+  font-size-adjust: none;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #333;
+  width: 99%;
+}
+
+p {
+  margin: 1em 0;
+}
+
+a {
+  color: #268ED4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  border: 0;
+}
+
+hr {
+  -moz-background-clip: border;
+  -moz-background-inline-policy: continuous;
+  -moz-background-origin: padding;
+  background: #BBBBBB none repeat scroll 0 0;
+  border: 0 none;
+  height: 1px;
+}
+
+table {
+	border: 0;
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+td, th {
+	padding: 7px;
+	border-bottom: solid 1px #ddd;
+}
+
+th {
+	font-weight: bold;
+	border-bottom: solid 2px #ccc;	
+}
+
+a.core-nav {
+  color: #333;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.core-nav:hover {
+  color: #268ED4;
+  text-decoration: none;
+}
+
+#footer, #header {
+  width: 99%;
+}
+
+#footer ul, #header ul {
+  list-style-type: none;
+  width: 100%;
+}
+
+#footer li, #header li {
+  float: left;
+  font-size: 36px;
+  margin-left: 11%;
+}
+
+#footer li:first-child, #header li:first-child {
+  margin-left: 4%;
+}
+
+#content {
+  padding-top: 5em;
+  font-size: small;
+}
+
+#content h2, #content h3 {
+  margin: .5em 0;
+}
+
+#content p, #content blockquote, #content li {
+  line-height:1.5em;
+}
+
+#content img.left {
+  float: left;
+  border: 1px solid #ddd;
+  margin: .3em 1em 0 0;
+}
+
+#content img.right {
+  float: right;
+  border: 1px solid #ddd;
+  margin: .3em 1em 0 0;
+}
+
+#content pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  overflow: auto;
+}
+
+#content code {
+  background-color:#EEEEFF;
+  border:1px solid #DDDDDD;
+  font-size: 95%;
+  padding:0 0.2em;
+}
+
+#content pre code {
+  border: none;
+}
+
+#content ol, #post ol {
+  margin-left: 2em;
+}
+
+#content ul, #post ul {
+  margin-left: 1.5em;
+}
+
+#footer {
+  border-width: 1px 0 1px;
+}
+
+#contact-info {
+  font-size: 150%;
+  text-align: center;
+}
+
+.published_on {
+	margin-bottom: 1em;
+	font-weight: normal;
+	display: block;
+}
+
+ul.posts {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0em;
+	text-indent: -1.5em;
+}
+
+ul.posts li {
+  margin: 1em 0;
+}
+
+ul.posts .title {
+  font-size: 120%;
+}
+
+.post-footer {
+  padding-top: 15px;
+  padding-bottom: 25px;
+  text-align: right;
+}
+
+.post-header {
+  display: block;
+}
+
+.post-header a {
+  font-weight: bold;
+}
+
+.post-header a:hover {
+  text-decoration: none;
+}
+
+blockquote p.attribution {
+  text-align:right;
+}
+
+.navbar>.container .navbar-brand {
+  margin-left: -100px !important;
+}
+
+/* @group paging */
+
+#paging {
+  line-height: 40px;
+  text-align: center;
+  position: relative;
+  margin: 0 -10px;
+  color: #FFFFFF;
+}
+
+#paging a {
+  position: absolute;
+  top: 0;
+  height: 40px;
+  background: url(/images/paging.png) no-repeat 0 0;
+  text-indent: 150%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#paging #newest a {
+  width: 50px;
+  left: 0;
+  background-position: 0 0;
+}
+
+#paging #newest a:hover,
+#paging #newest a:focus {
+  background-position: 0 -40px;
+}
+
+#paging #newest a:active {
+  background-position: 0 -80px;
+}
+
+#paging #newest a.disabled {
+  background-position: 0 -120px;
+  cursor: default;
+}
+
+#paging #newer a {
+  width: 40px;
+  left: 51px;
+  background-position: -50px 0;
+}
+
+#paging #newer a:hover,
+#paging #newer a:focus {
+  background-position: -50px -40px;
+}
+
+#paging #newer a:active {
+  background-position: -50px -80px;
+}
+
+#paging #newer a.disabled {
+  background-position: -50px -120px;
+  cursor: default;
+}
+
+#paging #older a {
+  width: 40px;
+  right: 51px;
+  background-position: -90px 0;
+}
+
+#paging #older a:hover,
+#paging #older a:focus {
+  background-position: -90px -40px;
+}
+
+#paging #older a:active {
+  background-position: -90px -80px;
+}
+
+#paging #older a.disabled {
+  background-position: -90px -120px;
+  cursor: default;
+}
+
+#paging #oldest a {
+  width: 50px;
+  right: 0;
+  background-position: -130px 0;
+}
+
+#paging #oldest a:hover,
+#paging #oldest a:focus {
+  background-position: -130px -40px;
+}
+
+#paging #oldest a:active {
+  background-position: -130px -80px;
+}
+
+#paging #oldest a.disabled {
+  background-position: -130px -120px;
+  cursor: default;
+}
+
+/* @end */
