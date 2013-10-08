@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "And so, let's start!"
-date:   2013-10-07 16:00:25
+title:  "И так, приступим-с!"
+date:   2013-10-08 16:00:25
 tags:
 - jekyll
 - bootstrap
 - blog
 ---
-I decided to try [Bootstrap 3.0](http://getbootstrap.com/). All the more so with the version [2.3](http://getbootstrap.com/2.3.2/) I have long been on the ["hey you"](http://akolosov.github.io/houston/). At the same time decided to touch [Jekyll](http://jekyllrb.com), had long dreamed of. The beauty of Jekyll that his "out of the box" support [GitHub Pages](http://pages.github.com/). That is, there is no need to search for and set up hosting for simple and cozy blog.
-Of course the need to blog I was not, but I'm used to study the technology in specific working examples. As they say "huyak-huyak in production"! :) So here I am with some regularity (yep!) will write notes about what I'm studying, I would like to study or have studied. Sometimes (almost always) I will be frank nonsense and heresy. So welcome to the comments. I am always happy to argue with the "trolls." In general, I'm always happy to chat with interesting people.
+Случилось так, что однажды я захотел попробовать [Bootstrap 3.0](http://getbootstrap.com/) в деле, тем более с версией [2.3](http://getbootstrap.com/2.3.2/) я был уже давно на "ты". Почитав в Сети про "дальше, выше, сильнее, прямее, логичнее", я начал думать над тем к чему его можно "прикрутить". И тут мой уставший взгляд упал на интересный gem [Jekyll](http://jekyllrb.com). Это движек для создания статический сайтов, например блогов. Самая главная его прелесть в том, что его "из коробки" понимает [GitHub Pages](http://pages.github.com/).
+
+Конечно блог это не совсем то, что мне бы хотелось сделать, но я привык изучать технологии на реально действующих проектах. Как говорится "Хуяк-хуяк и в продакшн"! :) К тому же поговорить и пописАть я люблю, решил что это будет неким моим "эго-стимулятором". Да-да! ЧСВ over 9000! Так вот... В этом блоге я буду с завидной регулярностью (ага!) писать о том, что я хочу изучить, что изучаю и что уже изучил. Разумеется все желающие могут вступать со мной и друг с другом в дискуссии и перепалки, "троллить" и "флэймить", а так же разжигать настоящие "холивары". Я всегда рад пообщаться с интересными людьми.
 
 {% highlight ruby %}
 	
