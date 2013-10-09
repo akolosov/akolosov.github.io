@@ -73,6 +73,11 @@ a.core-nav:hover {
   text-decoration: none;
 }
 
+#yandex-metrika {
+  margin-top: -40px;
+  margin-right: 10px;
+}
+
 #footer, #header {
   width: 99%;
 }
