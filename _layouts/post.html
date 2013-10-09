@@ -6,7 +6,7 @@ layout: default
 
   {% if page.date != null %}
     <span class="published_on">
-      {{ page.date | date: "%d.%m.%Y" }}
+      {{ page.date | date: "%d.%m.%Y в %H:%M" }}
       {% if page.tags != null %}
         {% for tag in page.tags %}
           <a href="/blog/tags/{{tag | downcase}}" class="icon-tag label label-default"> {{tag | downcase}}</a>
