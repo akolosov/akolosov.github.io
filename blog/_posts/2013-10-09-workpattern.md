@@ -47,6 +47,7 @@ tags:
     # бла-бла-бла...
 
     if params[:service_class_id]
+      # у нас присутствует класс обслуживания с указанными заранее параметрами срока исполнения и т.п.
       @incedent.service_class = ServiceClass.find(params[:service_class_id])
 
       # бла-бла-бла...
