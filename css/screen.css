@@ -109,12 +109,18 @@ a.core-nav:hover {
   float: left;
   border: 1px solid #ddd;
   margin: .3em 1em 0 0;
+  box-shadow: 3px 3px 1px #ccc;
+  -webkit-box-shadow: 3px 3px 1px #ccc;
+  -moz-box-shadow: 3px 3px 1px #ccc;
 }
 
 #content img.right {
   float: right;
   border: 1px solid #ddd;
   margin: .3em 1em 0 0;
+  box-shadow: 3px 3px 1px #ccc;
+  -webkit-box-shadow: 3px 3px 1px #ccc;
+  -moz-box-shadow: 3px 3px 1px #ccc;
 }
 
 #content pre {
