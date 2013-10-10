@@ -114,18 +114,18 @@ a.core-nav:hover {
   float: left;
   border: 1px solid #ddd;
   margin: .3em 1em 0 0;
-  box-shadow: 3px 3px 1px #ccc;
-  -webkit-box-shadow: 3px 3px 1px #ccc;
-  -moz-box-shadow: 3px 3px 1px #ccc;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 #content img.right {
   float: right;
   border: 1px solid #ddd;
   margin: .3em 1em 0 0;
-  box-shadow: 3px 3px 1px #ccc;
-  -webkit-box-shadow: 3px 3px 1px #ccc;
-  -moz-box-shadow: 3px 3px 1px #ccc;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 #content pre {
