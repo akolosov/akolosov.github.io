@@ -212,6 +212,38 @@ blockquote p.attribution {
   margin-left: -100px !important;
 }
 
+.rotate li {
+        -webkit-transition: -webkit-transform .5s;
+        -moz-transition: -moz-transform .5s;
+        -ms-transition: -ms-transform .5s;
+        -o-transition: -o-transform .5s;
+        transition: transform .5s;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+        text-align: center;
+}
+
+.rotate a {
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        text-align: center;
+}
+
+.rotate li:hover {
+        -webkit-transform: rotate(405deg);
+        -moz-transform: rotate(405deg);
+        -ms-transform: rotate(405deg);
+        -o-transform: rotate(405deg);
+        transform: rotate(405deg);
+        text-align: center;
+}
+
 /* @group paging */
 
 #paging {
